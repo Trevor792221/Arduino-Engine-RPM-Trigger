@@ -21,7 +21,7 @@ void loop() {
     lowTime=pulseIn(4,LOW);    //read low time
     period = highTime+lowTime; //period = highTime + lowTime
     freq=1000000/period;       //getting frequency with period is in Micro seconds
-    RPM = (freq/cyl)*60; //divide freq by number of cylinders in engine x 0.5
+    RPM = (freq/cyl)*60;       //divide freq by number of cylinders in engine x 0.5
 
   if (RPM > TargetRPM) {
     digitalWrite(13, LOW);
