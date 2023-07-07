@@ -25,10 +25,10 @@ void loop() {
 
   if (RPM > TargetRPM) {
     digitalWrite(13, LOW);
-  }                            //sets 13 high if RPM > TargetRPM
+  }                            //sets 13 low if RPM > TargetRPM
   else {
     digitalWrite(13, HIGH);
-  }                            //sets 13 low if RPM < TargetRPM
+  }                            //sets 13 high if RPM < TargetRPM
 
     Serial.println("Target RPM: ");           //prints TargetRPM
     Serial.println(TargetRPM);
