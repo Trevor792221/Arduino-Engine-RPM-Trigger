@@ -8,9 +8,8 @@ You will need:
 1x 1N4007 Diode
 1x 5.1V Zener Diode
 1x H11L1M Optocoupler
-1x Schematic
 1x Relay Module
-(https://forum.arduino.cc/t/reading-an-engines-rpm-with-arduino/689851/5)
+1x Schematic (https://forum.arduino.cc/t/reading-an-engines-rpm-with-arduino/689851/5)
 
 Schematic built here
 (https://forum.arduino.cc/t/reading-an-engines-rpm-with-arduino/689851/36)
