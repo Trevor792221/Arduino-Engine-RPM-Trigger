@@ -19,7 +19,7 @@ Put a 330 Ohm Resistor between pins 4 and 6 similar to the schematic shown here
 
 On the relay board connect VCC to +5v, GND to -, and IN to pin 13 on the Arduino
 
-If  you need help with the relay board go here (https://randomnerdtutorials.com/guide-for-relay-module-with-arduino/)
+If you need help with the relay board go here (https://randomnerdtutorials.com/guide-for-relay-module-with-arduino/)
 
 Change the TargetRPM and Cylinders for your engine and the RPM you want to trigger the relay at
 
